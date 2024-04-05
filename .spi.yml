@@ -1,0 +1,12 @@
+# Configuration file for https://swiftpackageindex.com/braze-inc/braze-swift-sdk
+version: 1
+builder:
+  configs:
+    - platform: ios
+      scheme: BrazeKit
+    - platform: tvos
+      scheme: BrazeKit
+    - platform: visionos
+      scheme: BrazeKit
+external_links:
+  documentation: https://braze-inc.github.io/braze-swift-sdk
