@@ -49,38 +49,38 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BrazeKit",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeKit.zip",
-      checksum: "0a8434860bd3e568d48430bd5a0bd8f50512fe36a6dada2c289c39d4b43dc616"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeKit.zip",
+      checksum: "6313debce8fec94e7b3a0550f6038fcbf2bc6efe850f9c4dcc29e565fab445fc"
     ),
     .binaryTarget(
       name: "BrazeUI",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeUI.zip",
-      checksum: "9a35c22fbe0942fef51b248c78d83336e66bc86f49afb5f4a40bd22500f1d70c"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeUI.zip",
+      checksum: "ea1b8d3912ae6bf5361e75bdd027c5f16139387157a12a7e3e75e83b84f54188"
     ),
     .binaryTarget(
       name: "BrazeLocation",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeLocation.zip",
-      checksum: "483d8c0b9fca475131e7aef2eb6a14823560a1de8f137d8a705d10bad3dbafd0"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeLocation.zip",
+      checksum: "80b16ed886f3ce201a6e57da9de3f584264997f13fcb59ae1ba92c7c1a70c761"
     ),
     .binaryTarget(
       name: "BrazeNotificationService",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeNotificationService.zip",
-      checksum: "2c8399f12a2b4702f39327970a46429f30bd87a895bc452eac987a9fab93290a"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeNotificationService.zip",
+      checksum: "6a55f04b6c7cf5e4890bfdb3630a5364883b10ede9844a160c3add20f42c0c25"
     ),
     .binaryTarget(
       name: "BrazePushStory",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazePushStory.zip",
-      checksum: "8b9cc1babb1ac09a12a9f84654ae91e5635a3edf07121de45055e0dc259305dd"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazePushStory.zip",
+      checksum: "a31f7f3bd267d478a8b678bbdf361cc7761891e496065926fe95d07cb404348e"
     ),
     .binaryTarget(
       name: "BrazeKitCompat",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeKitCompat.zip",
-      checksum: "1d65b0989a0a47850bb61f316fe7e3b98b0ed58d4226ede2809f5d1c694ac5ce"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeKitCompat.zip",
+      checksum: "6a2f4f25b8b0751c7aebb175910e84d3e98524fcefc3054ce090031cc8e2f11e"
     ),
     .binaryTarget(
       name: "BrazeUICompat",
-      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.3.0/BrazeUICompat.zip",
-      checksum: "c42798e0b82afe1e89649727313b00d057e8360ac3d3bd4898c2caa815873d5e"
+      url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/8.4.0/BrazeUICompat.zip",
+      checksum: "d03a1c2ba3735ffbe85200fb6651c1a269de9773dfbbba31bf641b728323b904"
     ),
   ]
 )
