@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'BrazeUI'
-  s.version           = '11.0.0'
+  s.version           = '11.0.1'
   s.summary           = 'Braze-provided user interface library for In-App Messages and Content Cards.'
 
   s.homepage          = 'https://braze.com'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors           = 'Braze, Inc.'
 
   s.source            = {
-    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/11.0.0/BrazeUI.zip',
-    :sha256 => 'a428d08e9809bc79ee86fdd3b811040e528357fd1913109cc2b9913896a380a3'
+    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/11.0.1/BrazeUI.zip',
+    :sha256 => '245038a2dab6e9146189f55b8fb6794cae8a647ba47d1be685cda12a2f3fec4f'
   }
 
   s.swift_version               = '5.0'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.vendored_framework      = 'BrazeUI.xcframework'
 
-  s.dependency 'BrazeKit', '11.0.0'
+  s.dependency 'BrazeKit', '11.0.1'
 
   s.pod_target_xcconfig     = { 'DEFINES_MODULE' => 'YES' }
 end
