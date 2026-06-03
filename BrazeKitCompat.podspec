@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'BrazeKitCompat'
-  s.version           = '15.0.0'
+  s.version           = '15.0.1'
   s.summary           = 'Compatibility library for users migrating from AppboyKit.'
 
   s.homepage          = 'https://braze.com'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors           = 'Braze, Inc.'
 
   s.source            = {
-    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/15.0.0/BrazeKitCompat.zip',
-    :sha256 => '8cb6d979a4777776ef1bf07b9779d9221d5c4aeb95a888eb8ed686df161dfa9d'
+    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-mergeable/releases/download/15.0.1/BrazeKitCompat.zip',
+    :sha256 => '616747d5e27d3beddc5ffde84b221c92d2b0cbe6a56e0e8ef468c4abf5bce543'
   }
 
   s.swift_version           = '5.0'
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
 
   s.vendored_framework      = 'BrazeKitCompat.xcframework'
 
-  s.dependency 'BrazeKit', '15.0.0'
-  s.dependency 'BrazeLocation', '15.0.0'
+  s.dependency 'BrazeKit', '15.0.1'
+  s.dependency 'BrazeLocation', '15.0.1'
 
   s.pod_target_xcconfig     = { 'DEFINES_MODULE' => 'YES' }
 end
